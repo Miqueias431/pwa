@@ -1,0 +1,37 @@
+PWA
+Progressive Web App
+
+APP (html css js)
+
+- instalável
+- off line
+- acesso aos recursos do equipamento (gps, bluetooth, camera etc)
+
+manifest.json
+
+{
+  "name": "Progressive Web App",
+  "short_name": "PWA",
+  "start_url": "/", //GitHub é necessário o nome do repo. Ex: /pwa/
+  "display": "standalone", //fullscreen, minimal-ui, browser
+  
+  //"orientation": "portrait",
+  
+  "icons": [
+    {
+      "src": "hal192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "hal512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+
+
+
+
+
