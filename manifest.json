@@ -1,0 +1,19 @@
+{
+  "name": "Progressive Web app",
+  "short_name": "PWA",
+  "start_url": "/", //GitHub é necessário o nome do repo. Ex: /pwa/
+  "display": "standalone", //fullscrean, minimal-ui, browser
+  //"orientation": "portrait",
+  "icons": [
+    {
+      "src": "hal92.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "hal512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
