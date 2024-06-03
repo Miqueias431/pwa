@@ -1,7 +1,7 @@
 {
   "name": "Progressive Web app",
   "short_name": "PWA",
-  "start_url": "/",
+  "start_url": "/pwa/",
   "display": "standalone",
   "icons": [
     {

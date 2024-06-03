@@ -1,6 +1,7 @@
-// Nome do cache
-const cachePWA = 'my-app-cache-v1';
+// Nome do cache (Controle de versão)
+const cachePWA = 'cache-v1';
 // Arquivos a serem armazenados em cache
+// Todos os arquivos devem ser add ao vetor (exceto o manifesto)
 const urlsToCache = [
   '/',
   '/index.html',  
